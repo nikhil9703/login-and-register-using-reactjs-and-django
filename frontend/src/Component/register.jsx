@@ -41,7 +41,7 @@ const Register = () => {
 
             alert("User registered successfully!");
             navigate("/login");
-            setFormData({ username: "", email: "", password: "", confirmPassword: "" }); // Reset form
+            setFormData({ username: "", email: "", password: "", confirmPassword: "" }); 
 
         } catch (error) {
             console.error("Axios error:", error);
